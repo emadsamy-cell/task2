@@ -1,0 +1,51 @@
+.scale{
+    background-color:#5920eb;
+    color: #fff;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    position: relative;
+    transform: translateY(-2rem);
+    &__link{
+        text-decoration: none;
+        color: #5825dc;
+        font-size: 1.6rem;
+        background-color: #fff;
+        padding:1.5rem 7rem;
+        border-radius: 4px;
+        font-weight: 700;
+    }
+}
+.special{
+   position: absolute;
+    top:0;
+    font-size: 2rem;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+ //   margin-top: .5rem;
+  
+}
+.card-1__heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  
+}
+.dolar{
+align-self: flex-start;
+font-size: 3rem;
+font-weight: 600;
+margin-top: 1rem;
+}
+
+.num{
+    align-self: center;
+    font-size:  6rem;
+    margin-left: .7rem;
+}
+.mo{
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 400;
+}

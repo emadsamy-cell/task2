@@ -1,0 +1,91 @@
+.container{
+    margin: 0 auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+
+.card-1{
+    background-color: #fff;
+    border-radius: 4px;
+float: left;
+width: 33.333%;
+    padding: 4rem 0rem;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    &__heading{
+        font-weight: 600;
+        font-size: 3rem;
+    }
+
+    &__h1{
+        border-bottom: 1px solid #00000045;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    &__ul{
+        margin-top:4rem ;
+        font-size: 1.6rem;
+        list-style: none;
+        
+    }
+    &__feature{
+        display: flex;
+        align-items: flex-start;
+        &__span__wrong{
+            color: #999;
+            position: relative;
+            &::before{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                content: "";
+                width: 100%;
+                height: 1px;
+                z-index: 1;
+                background-color: #999;
+            }
+        }
+    }
+    &__icon{
+        padding-left: 2rem;
+    }
+    &__link{
+   transition: all .2s;
+   margin-top: 5rem;
+   display:inline-block;    
+   &:hover{
+       transform: scale(1.1);
+   }
+    }
+}
+.correct{
+    fill:#7ed56f;
+    width: 2.5rem;
+    margin: 0rem 1rem;
+    height: 2.5rem;
+}
+.wrong{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0rem 1rem;
+    fill: red;
+}
+
+.link,.link:visited,.link:active{
+    text-decoration: none;
+    color: #fff;
+    background-color: #5825dc;
+    padding: 1.5rem 7rem;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 1.6rem;
+}
